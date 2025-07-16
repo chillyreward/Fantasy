@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fantasy Premier League - Vanilla Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Fantasy Premier League</h1>
+    
+    <div id="budget">Budget: £<span id="budgetValue">100</span>m</div>
+
+    <h2>Select Your Team</h2>
+    <div id="player-list" class="player-list"></div>
+
+    <h2>Your Team</h2>
+    <ul id="team" class="team-list"></ul>
+
+    <h2>Transfers</h2>
+    <input type="number" id="addMoneyInput" placeholder="Add money (£)" />
+    <button onclick="addFunds()">Add Funds</button>
+
+    <h2>Simulate Match</h2>
+    <select id="team1Select"></select> vs 
+    <select id="team2Select"></select>
+    <button onclick="simulateMatch()">Simulate Match</button>
+
+    <h2>Game Control</h2>
+    <button onclick="resetGame()">Reset Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
