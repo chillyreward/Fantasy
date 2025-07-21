@@ -2,7 +2,7 @@ const players = [
   { id: 1, name: "Saka", position: "Midfielder", price: 12, team: "Arsenal", points: 0 },
   { id: 2, name: "Haaland", position: "Forward", price: 14, team: "Man City", points: 0 },
   { id: 3, name: "Rashford", position: "Midfielder", price: 10, team: "Man Utd", points: 0 },
-  { id: 4, name: "Trent", position: "Defender", price: 9, team: "Liverpool", points: 0 },
+  { id: 4, name: "Lenny", position: "Defender", price: 9, team: "Liverpool", points: 0 },
   { id: 5, name: "Alisson", position: "Goalkeeper", price: 8, team: "Liverpool", points: 0 },
   { id: 6, name: "Son", position: "Midfielder", price: 11, team: "Spurs", points: 0 },
   { id: 7, name: "Kane", position: "Forward", price: 13, team: "Spurs", points: 0 },
